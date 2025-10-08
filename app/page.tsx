@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Building2, Users, Award, Phone, Mail, MapPin, ArrowRight, CheckCircle, Star } from "lucide-react"
+import { Building2, Users, Award, Phone, Mail, MapPin, ArrowRight, CheckCircle, Star, Package } from "lucide-react"
 import Link from "next/link"
 import { MobileNav } from "@/components/mobile-nav"
 
@@ -122,7 +122,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {[
               {
                 title: "Residential Construction",
@@ -135,6 +135,13 @@ export default function HomePage() {
                 description: "Office buildings, retail spaces, and commercial complexes designed for success.",
                 icon: Users,
                 features: ["Office Buildings", "Retail Spaces", "Warehouses"],
+              },
+              {
+                title: "Engineering Procurement",
+                description:
+                  "Complete procurement solutions for construction materials, equipment, and specialized engineering supplies.",
+                icon: Package,
+                features: ["Material Sourcing", "Equipment Supply", "Quality Assurance"],
               },
               {
                 title: "Project Management",
@@ -323,6 +330,11 @@ export default function HomePage() {
                 <li>
                   <Link href="/services" className="hover:text-accent transition-colors">
                     Project Management
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/services" className="hover:text-accent transition-colors">
+                    Engineering Procurement
                   </Link>
                 </li>
               </ul>

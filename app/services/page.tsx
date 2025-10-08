@@ -14,6 +14,7 @@ import {
   Hammer,
   PaintBucket,
   Zap,
+  Package,
 } from "lucide-react"
 import Link from "next/link"
 
@@ -68,7 +69,7 @@ export default function ServicesPage() {
       {/* Main Services */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-4 gap-8">
             {[
               {
                 title: "Residential Construction",
@@ -98,6 +99,21 @@ export default function ServicesPage() {
                   "Healthcare Buildings",
                 ],
                 image: "/commercial-construction-lagos-nigeria.png",
+              },
+              {
+                title: "Engineering Procurement",
+                description:
+                  "Comprehensive procurement solutions for all your construction material and equipment needs.",
+                icon: Package,
+                features: [
+                  "Construction Materials Sourcing",
+                  "Heavy Equipment Supply",
+                  "Specialized Engineering Supplies",
+                  "Quality Assurance & Testing",
+                  "Logistics & Delivery Management",
+                  "Vendor Management Services",
+                ],
+                image: "/engineering-procurement-construction-materials-equ.jpg",
               },
               {
                 title: "Renovation & Remodeling",
