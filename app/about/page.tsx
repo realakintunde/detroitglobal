@@ -44,12 +44,13 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <Badge variant="secondary" className="w-fit">
-                About Detroit Global Services
+                About Detroit Services Canada Incorporated
               </Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-balance">Building Dreams, Creating Legacies</h1>
               <p className="text-xl text-primary-foreground/90 leading-relaxed text-pretty">
-                For over 15 years, Detroit Global Services has been Lagos's trusted construction partner, delivering
-                exceptional projects that stand the test of time and exceed client expectations.
+                For over 15 years, Detroit Services Canada Incorporated has been a trusted construction partner across
+                Canada and Nigeria, delivering exceptional projects that stand the test of time and exceed client
+                expectations.
               </p>
               <div className="flex items-center gap-8 pt-4">
                 <div className="text-center">
@@ -88,13 +89,14 @@ export default function AboutPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-balance">From Vision to Reality</h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Detroit Global Services was founded in 2009 with a simple yet ambitious vision: to transform Lagos's
-                  construction landscape through innovation, quality, and unwavering commitment to excellence.
+                  Detroit Services Canada Incorporated was founded in 2009 with a simple yet ambitious vision: to
+                  deliver world-class construction services across North America and West Africa through innovation,
+                  quality, and unwavering commitment to excellence.
                 </p>
                 <p>
-                  What started as a small team of passionate builders has grown into one of Lagos's most trusted
-                  construction companies, completing over 500 projects across residential, commercial, and industrial
-                  sectors.
+                  What started as a small team of passionate builders in Canada has grown into an international
+                  construction company with operations in London, Ontario and Lagos, Nigeria, completing over 500
+                  projects across residential, commercial, and industrial sectors.
                 </p>
                 <p>
                   Our success is built on strong relationships with clients, suppliers, and the community. We believe
@@ -235,7 +237,7 @@ export default function AboutPage() {
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-balance">Leadership Team</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-              Meet the experienced professionals leading Detroit Global Services to new heights.
+              Meet the experienced professionals leading Detroit Services Canada Incorporated to new heights.
             </p>
           </div>
 
@@ -320,8 +322,8 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-balance">Ready to Work With Us?</h2>
           <p className="text-xl text-primary-foreground/90 text-pretty">
-            Join hundreds of satisfied clients who have trusted Detroit Global Services with their construction
-            projects.
+            Join hundreds of satisfied clients who have trusted Detroit Services Canada Incorporated with their
+            construction projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
@@ -412,27 +414,53 @@ export default function AboutPage() {
 
             <div className="space-y-4">
               <h3 className="font-semibold text-lg">Contact Info</h3>
-              <div className="space-y-3 text-primary-foreground/80">
-                <div className="flex items-center gap-2">
-                  <Mail className="h-4 w-4" />
+              <div className="space-y-3 text-primary-foreground/80 text-sm sm:text-base">
+                <div>
+                  <div className="font-semibold text-primary-foreground mb-2">Canada Headquarters</div>
+                  <div className="space-y-2">
+                    <div className="flex items-start gap-2">
+                      <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
+                      <span>
+                        1285 Whetherfield Street
+                        <br />
+                        London, Ontario N6H 0E5
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+14168587484" className="hover:text-accent transition-colors">
+                        +1 416 858 7484
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <div className="font-semibold text-primary-foreground mb-2">Nigeria Branch Office</div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="h-4 w-4 flex-shrink-0" />
+                      <span>Lagos, Nigeria</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+2348024469300" className="hover:text-accent transition-colors">
+                        +234 802 446 9300
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 pt-2">
+                  <Mail className="h-4 w-4 flex-shrink-0" />
                   <a href="mailto:info@detroitglobalservices.com" className="hover:text-accent transition-colors">
                     info@detroitglobalservices.com
                   </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" />
-                  <span>+2348024469300</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4" />
-                  <span>Lagos, Nigeria</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-primary-foreground/60">
-            <p>&copy; 2024 Detroit Global Services. All rights reserved.</p>
+            <p>&copy; 2025 Detroit Services Canada Incorporated. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -5,9 +5,9 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Detroit Global Services - Construction Company Lagos Nigeria",
+  title: "Detroit Services Canada Incorporated - Construction Company Canada & Nigeria",
   description:
-    "Leading construction company in Lagos, Nigeria. Residential, commercial construction, renovations and project management services. Contact: info@detroitglobalservices.com",
+    "Leading construction company with headquarters in London, Ontario, Canada and branch office in Lagos, Nigeria. Residential, commercial construction, renovations and project management services. Contact: info@detroitglobalservices.com",
   generator: "v0.app",
 }
 

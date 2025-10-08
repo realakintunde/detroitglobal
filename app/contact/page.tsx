@@ -50,7 +50,7 @@ export default function ContactPage() {
             </div>
             <CardTitle className="text-2xl">Message Sent Successfully!</CardTitle>
             <CardDescription>
-              Thank you for contacting Detroit Global Services. We'll get back to you within 24 hours.
+              Thank you for contacting Detroit Services Canada Incorporated. We'll get back to you within 24 hours.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -244,7 +244,10 @@ export default function ContactPage() {
                       <div className="space-y-1">
                         <h3 className="font-semibold">Phone</h3>
                         <p className="text-muted-foreground">Call us for immediate assistance</p>
-                        <p className="font-medium">+2348024469300</p>
+                        <div className="space-y-1">
+                          <p className="font-medium text-sm">Canada: +1 416 858 7484</p>
+                          <p className="font-medium text-sm">Nigeria: +234 802 446 9300</p>
+                        </div>
                         <p className="text-sm text-muted-foreground">Mon-Fri: 8:00 AM - 6:00 PM</p>
                       </div>
                     </div>
@@ -274,9 +277,22 @@ export default function ContactPage() {
                         <MapPin className="h-6 w-6 text-accent" />
                       </div>
                       <div className="space-y-1">
-                        <h3 className="font-semibold">Office Location</h3>
-                        <p className="text-muted-foreground">Visit our headquarters</p>
-                        <p className="font-medium">Lagos, Nigeria</p>
+                        <h3 className="font-semibold">Office Locations</h3>
+                        <p className="text-muted-foreground">Visit our offices</p>
+                        <div className="space-y-2 text-sm">
+                          <div>
+                            <p className="font-medium">Canada Headquarters:</p>
+                            <p>
+                              1285 Whetherfield Street
+                              <br />
+                              London, Ontario N6H 0E5
+                            </p>
+                          </div>
+                          <div>
+                            <p className="font-medium">Nigeria Branch Office:</p>
+                            <p>Lagos, Nigeria</p>
+                          </div>
+                        </div>
                         <p className="text-sm text-muted-foreground">By appointment only</p>
                       </div>
                     </div>
@@ -403,26 +419,52 @@ export default function ContactPage() {
             <div className="space-y-4">
               <h3 className="font-semibold text-lg">Contact Info</h3>
               <div className="space-y-3 text-primary-foreground/80">
-                <div className="flex items-center gap-2">
+                <div>
+                  <div className="font-semibold text-primary-foreground mb-2">Canada Headquarters</div>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
+                      <span>
+                        1285 Whetherfield Street
+                        <br />
+                        London, Ontario N6H 0E5
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+14168587484" className="hover:text-accent transition-colors">
+                        +1 416 858 7484
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <div className="font-semibold text-primary-foreground mb-2">Nigeria Branch Office</div>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="h-4 w-4 flex-shrink-0" />
+                      <span>Lagos, Nigeria</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+2348024469300" className="hover:text-accent transition-colors">
+                        +234 802 446 9300
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 pt-2">
                   <Mail className="h-4 w-4" />
                   <a href="mailto:info@detroitglobalservices.com" className="hover:text-accent transition-colors">
                     info@detroitglobalservices.com
                   </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="h-4 w-4" />
-                  <span>+2348024469300</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4" />
-                  <span>Lagos, Nigeria</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-primary-foreground/60">
-            <p>&copy; 2024 Detroit Global Services. All rights reserved.</p>
+            <p>&copy; 2025 Detroit Services Canada Incorporated. All rights reserved.</p>
           </div>
         </div>
       </footer>

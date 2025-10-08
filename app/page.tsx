@@ -57,11 +57,12 @@ export default function HomePage() {
                   Trusted Construction Partner
                 </Badge>
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-balance">
-                  Building Excellence in Lagos, Nigeria
+                  Building Excellence Across Canada & Nigeria
                 </h1>
                 <p className="text-lg sm:text-xl text-primary-foreground/90 leading-relaxed text-pretty">
-                  Detroit Global Services delivers world-class construction solutions with over a decade of experience.
-                  From residential projects to commercial developments, we build your vision with precision and quality.
+                  Detroit Services Canada Incorporated delivers world-class construction solutions with over a decade of
+                  experience. From residential projects to commercial developments, we build your vision with precision
+                  and quality.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
@@ -182,11 +183,12 @@ export default function HomePage() {
                   Why Choose Us
                 </Badge>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-balance">
-                  Your Trusted Construction Partner in Lagos
+                  Your Trusted Construction Partner in Canada & Nigeria
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground leading-relaxed text-pretty">
-                  With over 15 years of experience in the Nigerian construction industry, Detroit Global Services has
-                  built a reputation for excellence, reliability, and innovation.
+                  With over 15 years of experience in the construction industry, Detroit Services Canada Incorporated
+                  has built a reputation for excellence, reliability, and innovation across North America and West
+                  Africa.
                 </p>
               </div>
 
@@ -198,9 +200,9 @@ export default function HomePage() {
                       "Fully licensed construction company with comprehensive insurance coverage for your peace of mind.",
                   },
                   {
-                    title: "Local Expertise",
+                    title: "International Expertise",
                     description:
-                      "Deep understanding of Lagos building codes, regulations, and local construction practices.",
+                      "Deep understanding of Canadian and Nigerian building codes, regulations, and local construction practices.",
                   },
                   {
                     title: "Quality Materials",
@@ -355,7 +357,41 @@ export default function HomePage() {
             <div className="space-y-4 text-center sm:text-left">
               <h3 className="font-semibold text-base sm:text-lg">Contact Info</h3>
               <div className="space-y-3 text-primary-foreground/80 text-sm sm:text-base">
-                <div className="flex items-center gap-2 justify-center sm:justify-start">
+                <div>
+                  <div className="font-semibold text-primary-foreground mb-2">Canada Headquarters</div>
+                  <div className="space-y-2">
+                    <div className="flex items-start gap-2 justify-center sm:justify-start">
+                      <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
+                      <span>
+                        1285 Whetherfield Street
+                        <br />
+                        London, Ontario N6H 0E5
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2 justify-center sm:justify-start">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+14168587484" className="hover:text-accent transition-colors">
+                        +1 416 858 7484
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-2">
+                  <div className="font-semibold text-primary-foreground mb-2">Nigeria Branch Office</div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 justify-center sm:justify-start">
+                      <MapPin className="h-4 w-4 flex-shrink-0" />
+                      <span>Lagos, Nigeria</span>
+                    </div>
+                    <div className="flex items-center gap-2 justify-center sm:justify-start">
+                      <Phone className="h-4 w-4 flex-shrink-0" />
+                      <a href="tel:+2348024469300" className="hover:text-accent transition-colors">
+                        +234 802 446 9300
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 justify-center sm:justify-start pt-2">
                   <Mail className="h-4 w-4 flex-shrink-0" />
                   <a
                     href="mailto:info@detroitglobalservices.com"
@@ -364,22 +400,12 @@ export default function HomePage() {
                     info@detroitglobalservices.com
                   </a>
                 </div>
-                <div className="flex items-center gap-2 justify-center sm:justify-start">
-                  <Phone className="h-4 w-4 flex-shrink-0" />
-                  <a href="tel:+2348024469300" className="hover:text-accent transition-colors">
-                    +2348024469300
-                  </a>
-                </div>
-                <div className="flex items-center gap-2 justify-center sm:justify-start">
-                  <MapPin className="h-4 w-4 flex-shrink-0" />
-                  <span>Lagos, Nigeria</span>
-                </div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-primary-foreground/20 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-primary-foreground/60 text-sm">
-            <p>&copy; 2024 Detroit Global Services. All rights reserved.</p>
+            <p>&copy; 2025 Detroit Services Canada Incorporated. All rights reserved.</p>
           </div>
         </div>
       </footer>
