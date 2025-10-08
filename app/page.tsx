@@ -15,7 +15,7 @@ export default function HomePage() {
             <div className="flex items-center">
               <img
                 src="/detroit-global-services-logo.png"
-                alt="Detroit Global Services Logo"
+                alt="Detroit Services Canada Incorporated Logo"
                 className="h-10 sm:h-12 w-auto"
               />
             </div>
@@ -54,7 +54,7 @@ export default function HomePage() {
             <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
               <div className="space-y-4">
                 <Badge variant="secondary" className="w-fit mx-auto lg:mx-0">
-                  Trusted Construction Partner
+                  Trusted Construction and Engineering Procurement Partner
                 </Badge>
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-balance">
                   Building Excellence Across Canada & Nigeria
@@ -299,7 +299,7 @@ export default function HomePage() {
               <div className="flex items-center justify-center sm:justify-start">
                 <img
                   src="/detroit-global-services-logo.png"
-                  alt="Detroit Global Services Logo"
+                  alt="Detroit Services Canada Incorporated Logo"
                   className="h-8 sm:h-10 w-auto"
                 />
               </div>

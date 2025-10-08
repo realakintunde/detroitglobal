@@ -12,7 +12,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <img src="/detroit-global-services-logo.png" alt="Detroit Global Services Logo" className="h-12 w-auto" />
+              <img
+                src="/detroit-global-services-logo.png"
+                alt="Detroit Services Canada Incorporated Logo"
+                className="h-12 w-auto"
+              />
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/" className="text-primary hover:text-accent transition-colors">
@@ -244,33 +248,26 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Adebayo Johnson",
+                name: "Osuntokun Paul",
                 role: "Chief Executive Officer",
                 experience: "20+ years in construction management",
-                image: "/ceo-detroit-global-services-lagos.png",
               },
               {
                 name: "Funmi Adebayo",
                 role: "Chief Operations Officer",
                 experience: "15+ years in project operations",
-                image: "/coo-detroit-global-services-lagos.png",
               },
               {
                 name: "Emeka Okafor",
                 role: "Chief Technical Officer",
                 experience: "18+ years in construction engineering",
-                image: "/cto-detroit-global-services-lagos.png",
               },
             ].map((member, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
-                <div className="aspect-square bg-muted relative overflow-hidden">
-                  <img
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardHeader className="text-center">
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300">
+                <CardHeader className="text-center space-y-3">
+                  <div className="w-20 h-20 bg-accent/10 rounded-full flex items-center justify-center mx-auto group-hover:bg-accent/20 transition-colors">
+                    <Users className="h-10 w-10 text-accent" />
+                  </div>
                   <CardTitle className="text-xl">{member.name}</CardTitle>
                   <CardDescription className="text-accent font-medium">{member.role}</CardDescription>
                   <p className="text-sm text-muted-foreground">{member.experience}</p>
@@ -350,7 +347,7 @@ export default function AboutPage() {
               <div className="flex items-center">
                 <img
                   src="/detroit-global-services-logo.png"
-                  alt="Detroit Global Services Logo"
+                  alt="Detroit Services Canada Incorporated Logo"
                   className="h-10 w-auto"
                 />
               </div>

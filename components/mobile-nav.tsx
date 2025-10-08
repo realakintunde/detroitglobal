@@ -32,7 +32,11 @@ export function MobileNav({ currentPath }: MobileNavProps) {
       <SheetContent side="right" className="w-[300px] sm:w-[400px]">
         <div className="flex flex-col space-y-4 mt-8">
           <div className="flex items-center justify-between mb-8">
-            <img src="/detroit-global-services-logo.png" alt="Detroit Global Services Logo" className="h-10 w-auto" />
+            <img
+              src="/detroit-global-services-logo.png"
+              alt="Detroit Services Canada Incorporated Logo"
+              className="h-10 w-auto"
+            />
           </div>
 
           <nav className="flex flex-col space-y-4">
